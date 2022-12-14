@@ -29,8 +29,7 @@ body {
   background-color: #ffff;
   border-radius: 1rem;
 }
-.item-one {
-}
+
 .item__one-title {
   width: 100%;
   height: 40%;
@@ -95,8 +94,7 @@ body {
   border: none;
   cursor: pointer;
 }
-.item-two {
-}
+
 .item__two-title {
   width: 100%;
   height: 20%;
@@ -151,8 +149,7 @@ body {
 .multiplayer-4 {
   background: #1e6bff;
 }
-.multipleyr__img {
-}
+
 .multpleyr__sub {
   width: 12rem;
   height: 20%;
@@ -163,8 +160,7 @@ body {
   font-size: 1.2rem;
   color: #ffffff;
 }
-.item-theree {
-}
+
 .item__theree-title {
   width: 100%;
   height: 15%;
@@ -198,8 +194,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.left__img {
-}
+
 .you {
   border-bottom: 2px solid #ffff;
   width: 70%;
@@ -232,8 +227,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.right__img {
-}
+
 .card__item {
   width: 90%;
   height: 52%;
@@ -263,8 +257,7 @@ body {
   font-size: 9rem;
   font-weight: 600;
 }
-.cal-2 {
-}
+
 .cal-3,
 .cal-4,
 .cal-6,
@@ -272,16 +265,4 @@ body {
   color: #ff0000;
   font-size: 9rem;
   font-weight: 900;
-}
-.cal-4 {
-}
-.cal-5 {
-}
-.cal-6 {
-}
-.cal-7 {
-}
-.cal-8 {
-}
-.cal-9 {
 }
