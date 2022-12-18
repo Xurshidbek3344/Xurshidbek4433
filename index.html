@@ -14,7 +14,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="grid item-one">
+        <div class="grid item-one" id="one__item">
           <div class="item__one-title">
             <div class="one__title-inner">
               <h1 class="tic">
@@ -34,23 +34,25 @@
           </div>
 
           <div class="one__btn">
-            <button type="button" class="tic__btn">Let's play</button>
+            <button type="button" class="tic__btn" id="tic__btn">
+              Let's play
+            </button>
           </div>
         </div>
-        <div class="grid item-two">
+        <div class="grid item-two hidden" id="two__item">
           <div class="item__two-title">
             <p>Choose Game</p>
             <div class="item__two-border"></div>
           </div>
 
           <div class="choose__game-grid">
-            <div class="multipleyr__grid multiplayer-1">
+            <div class="multipleyr__grid multiplayer-1" id="single__player">
               <div class="img__multi">
                 <img src="/img/image 1.png" alt="" class="multipleyr__img" />
               </div>
               <div class="multpleyr__sub">SINGLE PLAYER</div>
             </div>
-            <div class="multipleyr__grid multiplayer-2">
+            <div class="multipleyr__grid multiplayer-2" id="multi__player">
               <div class="img__multi">
                 <img src="/img/image 2.png" alt="" class="multipleyr__img" />
               </div>
@@ -70,7 +72,7 @@
             </div>
           </div>
         </div>
-        <div class="grid item-theree">
+        <div class="grid item-theree hidden" id="theree__item">
           <div class="item__theree-title">
             <h1>Tic Tac Toe</h1>
             <div class="theree__border"></div>
@@ -85,6 +87,36 @@
             <div class="player__one-rihgt">
               <img src="/img/image 8.png" alt="" class="right__img" />
               <div class="you">Computer</div>
+              <p class="one__inner2">O</p>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card cal-1">O</div>
+            <div class="card cal-2">O</div>
+            <div class="card cal-3">X</div>
+            <div class="card cal-4">X</div>
+            <div class="card cal-5">O</div>
+            <div class="card cal-6">X</div>
+            <div class="card cal-7">X</div>
+            <div class="card cal-8"></div>
+            <div class="card cal-9">O</div>
+          </div>
+        </div>
+        <div class="grid item-theree hidden" id="four__item">
+          <div class="item__theree-title">
+            <h1>Tic Tac Toe</h1>
+            <div class="theree__border"></div>
+          </div>
+
+          <div class="player__one">
+            <div class="player__one-left">
+              <img src="/img/image 5.png" alt="" class="left__img" />
+              <div class="you">You</div>
+              <p class="one__inner">X</p>
+            </div>
+            <div class="player__one-rihgt">
+              <img src="/img/image 8.png" alt="" class="right__img" />
+              <div class="you">Player Two</div>
               <p class="one__inner2">O</p>
             </div>
           </div>
