@@ -33,7 +33,8 @@ const cal6 = document.querySelector(".cal-6");
 const cal7 = document.querySelector(".cal-7");
 const cal8 = document.querySelector(".cal-8");
 const cal9 = document.querySelector(".cal-9");
-
+const left = document.getElementById("left");
+const right = document.getElementById("right");
 const calArea = [cal1, cal2, cal3, cal4, cal5, cal6, cal7, cal8, cal9];
 
 const xYutdi = () => {
@@ -119,15 +120,7 @@ const oyinTugadi = () => {
   }
 };
 
-let xYuradi = false;
-
-// const array = [1, 2, 4, 5]
-
-// array.map((index) => {
-
-//   console.log(index)
-
-// })
+let xYuradi = true;
 
 calArea.forEach((elmt) => {
   elmt.addEventListener("click", () => {
@@ -135,9 +128,18 @@ calArea.forEach((elmt) => {
 
     if (xYuradi && !oyinTugadi()) {
       elmt.textContent = "X";
+      left.style.background = "red";
+      right.style.background = "";
+      left.style.boxShadow = "10px 5px 5px black";
+      right.style.boxShadow = "";
+
       xYuradi = false;
     } else if (!xYuradi && !oyinTugadi()) {
       elmt.textContent = "O";
+      right.style.boxShadow = "10px 5px 5px black";
+      left.style.boxShadow = "";
+      right.style.background = "red";
+      left.style.background = "";
       xYuradi = true;
     }
   });
