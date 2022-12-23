@@ -44,6 +44,7 @@ body {
 .one__title-inner h1 {
   font-weight: 900;
 }
+
 .tic,
 .tac__c,
 .e {
@@ -176,9 +177,19 @@ body {
   font-size: 2.5rem;
   color: #0057ff;
 }
+
+.refresh__title {
+  display: flex;
+}
+
+.refresh {
+  height: 3rem;
+  transform: translateX(4rem);
+}
+
 .theree__border {
   width: 85%;
-  border: 0.7rem solid #ff0000;
+  border: 0.3rem solid #ff0000;
   border-radius: 1rem;
 }
 .player__one {
@@ -277,9 +288,9 @@ body {
   display: none;
 }
 
-@media (max-width: 40rem){
+@media (max-width: 40rem) {
   .grid {
     width: 100%;
     height: 100%;
-    }
+  }
 }

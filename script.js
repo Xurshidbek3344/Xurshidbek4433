@@ -35,6 +35,7 @@ const cal8 = document.querySelector(".cal-8");
 const cal9 = document.querySelector(".cal-9");
 const left = document.getElementById("left");
 const right = document.getElementById("right");
+const refresh = window.document.querySelector(".refresh");
 const calArea = [cal1, cal2, cal3, cal4, cal5, cal6, cal7, cal8, cal9];
 
 const xYutdi = () => {
@@ -143,4 +144,8 @@ calArea.forEach((elmt) => {
       xYuradi = true;
     }
   });
+});
+
+refresh.addEventListener("click", () => {
+  window.location.reload();
 });
