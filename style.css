@@ -261,7 +261,7 @@ body {
 .cal-8 {
   color: #0075ff;
   font-size: 9rem;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .cal-3,
@@ -277,5 +277,9 @@ body {
   display: none;
 }
 
-.item-four {
+@media (max-width: 40rem){
+  .grid {
+    width: 100%;
+    height: 100%;
+    }
 }
