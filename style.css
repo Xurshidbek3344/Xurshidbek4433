@@ -25,7 +25,7 @@ body {
 }
 .grid {
   width: 40rem;
-  height: 60rem;
+  height: 100vh;
   background-color: #ffff;
   border-radius: 1rem;
 }
