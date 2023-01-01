@@ -1,28 +1,28 @@
 "use strict";
-// const ticBtn = document.getElementById("tic__btn");
+const ticBtn = document.getElementById("tic__btn");
 
-// const oneItem = document.getElementById("one__item");
-// const twoItem = document.getElementById("two__item");
-// const thereeItem = document.getElementById("theree__item");
-// const fourItem = document.getElementById("four__item");
+const oneItem = document.getElementById("one__item");
+const twoItem = document.getElementById("two__item");
+const thereeItem = document.getElementById("theree__item");
+const fourItem = document.getElementById("four__item");
 
-// const singePlayer = document.getElementById("single__player");
-// const multiPlayer = document.getElementById("multi__player");
+const singePlayer = document.getElementById("single__player");
+const multiPlayer = document.getElementById("multi__player");
 
-// ticBtn.addEventListener("click", () => {
-//   twoItem.classList.remove("hidden");
-//   oneItem.classList.add("hidden");
-// });
+ticBtn.addEventListener("click", () => {
+  twoItem.classList.remove("hidden");
+  oneItem.classList.add("hidden");
+});
 
-// singePlayer.addEventListener("click", () => {
-//   twoItem.classList.add("hidden");
-//   thereeItem.classList.remove("hidden");
-// });
-// multiPlayer.addEventListener("click", () => {
-//   fourItem.classList.remove("hidden");
-//   thereeItem.classList.add("hidden");
-//   twoItem.classList.add("hidden");
-// });
+singePlayer.addEventListener("click", () => {
+  twoItem.classList.add("hidden");
+  thereeItem.classList.remove("hidden");
+});
+multiPlayer.addEventListener("click", () => {
+  fourItem.classList.remove("hidden");
+  thereeItem.classList.add("hidden");
+  twoItem.classList.add("hidden");
+});
 
 const cal1 = document.querySelector(".cal-1");
 const cal2 = document.querySelector(".cal-2");
@@ -129,7 +129,7 @@ calArea.forEach((elmt) => {
 
     if (xYuradi && !oyinTugadi()) {
       elmt.textContent = "X";
-      left.style.background = "red";
+      left.style.background = "#7c4d4d";
       right.style.background = "";
       left.style.boxShadow = "10px 5px 5px black";
       right.style.boxShadow = "";
@@ -139,7 +139,7 @@ calArea.forEach((elmt) => {
       elmt.textContent = "O";
       right.style.boxShadow = "10px 5px 5px black";
       left.style.boxShadow = "";
-      right.style.background = "red";
+      right.style.background = "#7c4d4d";
       left.style.background = "";
       xYuradi = true;
     }

@@ -269,20 +269,30 @@ body {
 .cal-2,
 .cal-5,
 .cal-9,
-.cal-8 {
+.cal-8,
+.cal-3,
+.cal-4,
+.cal-6,
+.cal-7 {
   color: #0075ff;
   font-size: 9rem;
   font-weight: 900;
 }
 
-.cal-3,
-.cal-4,
-.cal-6,
-.cal-7 {
-  color: #ff0000;
+.cul-1,
+.cul-2,
+.cul-3,
+.cul-4,
+.cul-5,
+.cul-6,
+.cul-7,
+.cul-8,
+.cul-9 {
+  color: #0075ff;
   font-size: 9rem;
   font-weight: 900;
 }
+
 
 .hidden {
   display: none;
